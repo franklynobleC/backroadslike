@@ -1,7 +1,7 @@
 import React from 'react'
-import { tours } from '../data'
+// import { tours } from '../data'
 
-const Tour = ({ image, date, title, info, price, location, duration }) => {
+const Tour = ({ image, date, title, info, price, cost, duration }) => {
   //   tours.map(tour => {
   return (
     <article className='tour-card'>
@@ -19,7 +19,7 @@ const Tour = ({ image, date, title, info, price, location, duration }) => {
             <span>
               <i className='fas fa-map'></i>
             </span>{' '}
-            {location}
+            {cost}
           </p>
           <p>{duration} days</p>
           <p>{price}</p>

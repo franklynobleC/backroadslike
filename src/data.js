@@ -3,7 +3,6 @@ import tour2 from './images/tour-2.jpeg'
 
 import tour3 from './images/tour-3.jpeg'
 import tour4 from './images/tour-4.jpeg'
-import tour5 from './images/tour-5.jpeg'
 
 export const pagLinks = [
   { id: 1, href: '#home', text: 'home' },
@@ -49,7 +48,7 @@ export const tours = [
     price: 'from $1400',
     location: 'hong kong',
     duration: 6,
-    location: 2100
+    cost: 2100
   },
   {
     id: 2,
@@ -60,7 +59,7 @@ export const tours = [
     price: 'from $1400',
     location: 'China',
     duration: 6,
-    location: 4600
+    lcost: 4600
   },
   {
     id: 3,
@@ -70,8 +69,8 @@ export const tours = [
     info: ' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumtae tempore voluptatum maxime reprehenderit eum quod,exercitationem fugit, qui corporis.',
     price: 'from $1400',
     location: 'hong kong',
-    duration: 8 ,
-    location: 5000
+    duration: 8,
+    cost: 5000
   },
   {
     id: 4,
@@ -82,6 +81,6 @@ export const tours = [
     price: 'from $1400',
     location: 'kenya',
     duration: 20,
-    location: 3300
+    cost: 3300
   }
 ]
